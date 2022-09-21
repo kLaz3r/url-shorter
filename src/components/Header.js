@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../images/logo.svg';
 import home from '../images/illustration-working.svg';
+import logo from '../images/logo.svg';
 
 const Container = styled.div`
   max-width: 1440px;
@@ -100,8 +100,8 @@ const Header = () => {
           </ul>
         </div>
         <div>
-          <Login href='#'>Login</Login>
-          <SignUp href='#'>Sign Up</SignUp>
+          <Login href='/'>Login</Login>
+          <SignUp href='/'>Sign Up</SignUp>
         </div>
       </Nav>
       <Home>
